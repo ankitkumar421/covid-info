@@ -1,0 +1,105 @@
+#heading{
+    text-align: center;
+    padding: 1em;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+#table-heading{
+    font-size: 1.5em;
+}
+.hidden {
+    display: none;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.orange {
+    color: orange;
+    font-weight: bold;
+}
+
+.state-name{
+    cursor: pointer;
+}
+
+.state-name:hover{
+    background-color: rgb(126, 120, 120);
+    font-size: larger;
+}
+
+.main-div{
+    width: 100%;
+}
+
+.card{
+    border: solid;
+    margin-right: 90%;
+    margin-bottom: 2em;
+    left: 10%;
+    text-align: center; 
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.card h1{
+   font-size: x-large;
+   font-weight: bold;
+}
+
+.caseNumber{
+    font-weight: bolder;
+    font-size: 2em;
+}
+.main-div p {
+    display: inline;
+}
+
+.box{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.active-style:hover{
+    background-color: rgba(255, 0, 0, 0.527);
+    transform: scale(1.1);
+}
+
+.confirm-style:hover{
+    background-color: rgba(255, 166, 0, 0.575);
+    transform: scale(1.1);
+}
+
+.deceased-style:hover{
+    background-color: rgba(0, 0, 255, 0.555);
+    transform: scale(1.1);
+}
+
+.recover-style:hover{
+    background-color: rgba(0, 128, 0, 0.657);
+    transform: scale(1.1);
+}
+
+.data-chart {
+    width: 100%;
+}
+
+.data-chart .data-container {
+    width: 50%;
+    float: left;
+}

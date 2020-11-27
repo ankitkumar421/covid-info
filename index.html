@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/in/in-all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Table</title>
+</head>
+<body>
+    <h3 id="heading"><u>COVID-19 UPDATE</u></h3>
+    <div class="data-chart">
+      <div id="container" class="data-container"></div>
+      <div id="country-container" class="data-container"></div>
+    </div>
+  <div class="main-div"></div>
+    <table class="table">
+        <thead>
+          <tr id="table-heading">
+            <th scope="col">State</th>
+            <th scope="col">Active Cases</th>
+            <th scope="col">Confirmed Cases</th>
+            <th scope="col">Deceased Cases</th>
+            <th scope="col">Recovered Cases</th>
+          </tr>
+        </thead>
+        <tbody id="state-list">
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+
+      <script src="app.js"></script>
+<!-- <script src="district.js"></script> -->
+</body>
+</html>
+
+
+
+
